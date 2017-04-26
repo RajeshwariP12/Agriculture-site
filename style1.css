@@ -2,14 +2,14 @@ body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg6BY4I5AmYy2T7sbGwZr82TKoIHql3iUnZ6wnDu15IQfoDejJOA");
     min-width: 960px;   
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
      background-attachment: fixed;
     font-family: 'Helvetica', sans-serif;
 
 }
 .main {
     margin-top: -10px;
-    background-color: white;
+    background-color:white;
 }
 
 .container_12 {
@@ -31,7 +31,7 @@ body{
 .grid_12 {
   display: inline;
   float: left;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-right: 10px;
 }
 
@@ -88,12 +88,15 @@ body{
 header {
     background-color: green;
     height: 70px;
-    width: 100%;
+    width: 10%;
     margin: 0px;
+    background-attachment: fixed;
     position: fixed;
-    padding-top: -10px;
+    padding-top: 10px;
+    padding-bottom: 200px;
     
 }
+
 /* h1 tag in header */
 header h1 {
     margin-top: 20px;
@@ -118,72 +121,47 @@ nav li a{
     text-decoration: none;
     padding-right: 5px;
 }
+/*hero section*/
+.hero-unit{
+  padding-top: 80px;
+  
+  padding-left:0px;
+  
+  
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius:5px;
+  border-radius: 0px;
+}
 
-article {
-    margin-bottom: 10px;
-    height: 350px;
-    padding-top: 150px;
+ .hero-unit img{
+  
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
+.hero-unit h2{
+  text-align: center;
+}
+
+section h2{
+ text-align:=center;
+  margin-top: 20px;
     font-size: 2em;
-
+    padding-bottom: 10px;
+    color: black;
 }
- article a {
-    text-decoration: none;
-    text-shadow: 3px 5px 5px black;
-}
-
-
-article img{
-  width: 50px;
-  height: 30px;
-  padding-top: 300px;
-  padding-left: 400px;
-  padding-bottom: 600px;
-}
-.pot{
+.image-position{
   padding-top: 50px;
   padding-bottom: 10px;
   padding-right: 20px;
   padding-left: 20px;
 }
+
 a:hover{
     color: purple;
 }
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-.clearfix:before,
-.clearfix:after,
-.container_12:before,
-.container_12:after {
-  content: '.';
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  font-size: 0;
-  line-height: 0;
-  width: 0;
-  height: 0;
-}
 
-.clearfix:after,
-.container_12:after {
-  clear: both;
-}
-
-/*
-  The following zoom:1 rule is specifically for IE6 + IE7.
-  Move to separate stylesheet if invalid CSS is a problem.
-*/
-
-.clearfix,
-.container_12 {
-  zoom: 1;
-}
 footer {
     margin-top: 10px;
     height: 60px;
@@ -195,4 +173,17 @@ footer {
     padding-top: 20px;
     padding-left: 100px;
     color: white;
+}
+.copy-right{
+  padding-top: 20px;
+}
+.term-condition{
+  padding-top: 20px;
+}
+
+.copy-right h6{
+  font-size: 14px;
+}
+.term-condition h6{
+  font-size: 14px;
 }
