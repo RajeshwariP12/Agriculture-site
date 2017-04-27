@@ -21,6 +21,7 @@ body{
   width: 960px;
 }
 
+/*  header section */
 header {
     background-color: green;
     height: 70px;
@@ -77,6 +78,7 @@ nav li a{
   text-align: center;
 }
 
+/* h2 tag in section */
 section h2{
  text-align:=center;
   margin-top: 20px;
@@ -84,14 +86,26 @@ section h2{
     padding-bottom: 10px;
     color: black;
 }
+
+
 section img{
   border-image-width: 10px;
   border-width: 10px;
 }
+
 .grid_6 h2{
 padding-left: 10px;
 padding-right: 10px;
 text-decoration-line: none;
+}
+.grid_6 h3{
+padding-left: 10px;
+padding-right: 10px;
+text-decoration-line: none;
+}
+
+.grid_6 a{
+text-align: justify;
 }
 .image-position{
   padding-top: 50px;
@@ -99,14 +113,18 @@ text-decoration-line: none;
   padding-right: 20px;
   padding-left: 20px;
 }
+
+/* anchor tags */
  a{
   text-decoration: none;
+  text-align:left;
 }
 
 a:hover{
     color: purple;
 }
 
+/* footer section */
 footer {
     margin-top: 10px;
     height: 60px;
